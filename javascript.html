@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="start.css" media="screen" charset="utf-8">
+    <script src="pen.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+
+
+    <input type="text" id="number-one" size="5" value="39">
+    +
+    <input type="text" id="number-two" size="5" value="2">
+    =
+    <button type="button" id="go-button">Calculate</button><br>
+
+
+    <div id="result"></div>
+
+
+    <script type="text/javascript">
+
+      var numberOneElement = document.getElementById('number-one');
+      var numberTwoElement = document.getElementById('number-two');
+      var goButtonElement = document.getElementById('go-button');
+      var resultElement = document.getElementById('result');
+
+      function calculate() {
+        var numberOne = parseInt(numberOneElement.value, 2);
+        var numberTwo = parseInt(numberTwoElement.value, 2);
+
+        if (isNaN(numberOne) || isNaN(numberTwo) ) {
+          resultElement.textContent = 'Error: input needs two numbers';
+        }
+        else {
+          resultElement.innerHTML = '<h1> SUM ' + (numberOne + numberTwo) + '</h1>' ;
+        }
+    }
+
+    goButtonElement.addEventListener('click', calculate, false);
+
+    </script>
+    <script src="fw.js" charset="utf-8"></script>
+  </body>
+</html>

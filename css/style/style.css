@@ -1,0 +1,35 @@
+h1 {
+    color: red;
+    font-size: 20pt;
+    font-weight: normal;
+}
+#firstlink {
+    color: black;
+}
+p.second {
+    color: black;
+}
+.last {
+    color: purple;
+}
+.last.second {
+    color: cyan;
+}
+p a{
+    color: darkcyan;
+}
+nav,
+a {
+    color: green;
+}
+/*
+.class
+a.class
+p a.classname
+.class .class2
+#id
+*/
+
+a:hover {
+    color: yellow;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+  </head>
+  <body>
+
+    <form action="http://10.10.0.34:3000/log" method="post">
+
+        Név: <br>
+        <input type="text" name="name" value=""><br>
+
+        kedvenc szín: <br>
+        <input type="text" name="fav-color" value=""><br>
+
+        <input type="checkbox" id="remember" name="pipa"><label for="remember"> kattints ide</label><br>
+
+        szereted a csokit?: <br>
+        <select name="do-you-like-chocolate">
+            <option value="yes">Igen</option>
+            <option value="yes">Nem</option>
+        </select><br>
+
+        Message: <br>
+        <textarea name="message" rows="10" cols="40">
+
+        </textarea><br>
+
+        <input type="submit" value="Menj!"><br>
+
+    </form>
+
+  </body>
+</html>

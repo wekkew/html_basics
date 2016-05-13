@@ -1,0 +1,77 @@
+body {
+    color: white;
+    background-color: #353742;
+    text-align: left;
+}
+
+header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30pt;
+    color: red;
+    font-weight: lighter;
+}
+nav li {
+    text-align: center;
+    display: inline;
+}
+nav {
+    align-items: center;
+    font-size: 10pt;
+    font-weight: lighter;
+    float: inherit;
+}
+nav ul {
+    list-style-type: none;
+    margin: 5;
+    padding: 0;
+}
+li a {
+    display: inline-block;
+    width: 120px;
+    color: white;
+    text-decoration: none;
+}
+
+section.main {
+    text-align: left;
+}
+
+section.function {
+    font-size: 8pt;
+}
+
+#products {
+    float: left;
+    width: 32%;
+    margin-left: 4px;
+    margin-right: 4px;
+
+}
+#mobile {
+    float: left;
+    width: 33%;
+    margin-right: 4px;
+}
+#enbedded {
+    float: right;
+    width: 33%;
+    margin-right: 4px;
+}
+
+
+h3 {
+    color: red;
+}
+span {
+    color: red;
+}
+
+#how-we-work {
+    clear: both;
+}
+
+.nametag {
+    text-transform: capitalize;
+    color: white;
+}
