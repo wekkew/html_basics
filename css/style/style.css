@@ -1,35 +1,43 @@
-h1 {
-    color: red;
-    font-size: 20pt;
-    font-weight: normal;
+body {
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 0;
 }
-#firstlink {
-    color: black;
+section.content{
+    border: solid 3px darkgreen;
 }
-p.second {
-    color: black;
-}
-.last {
-    color: purple;
-}
-.last.second {
-    color: cyan;
-}
-p a{
-    color: darkcyan;
+section.content:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 nav,
-a {
-    color: green;
+article,
+section.adds {
+    box-sizing: border-box;
+    width: 33%;
+    float: left;
+    padding: 10px;
 }
-/*
-.class
-a.class
-p a.classname
-.class .class2
-#id
-*/
-
-a:hover {
-    color: yellow;
+nav {
+    background-color: lightgrey;
+}
+nav ul {
+    list-style: upper-greek;
+    padding-left: 25px;
+    margin: 0;
+    margin-bottom: 25;
+}
+article {
+    background: #efe url('http://cdn.theanimalprintshop.com/images/P/Baby-Camel-Nursery-Art_Main.jpg') top center;
+}
+section.adds {
+    background: #efe;
+}
+footer {
+    clear: both;
+    font-size: 0.8em;
+    color: #fff;
+    padding: 10px;
+    background-color: magenta;
 }

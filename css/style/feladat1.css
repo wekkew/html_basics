@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+section {
+    background-color: grey;
+    padding: 10px;
+}
+
+#one {
+    content: url("http://pad1.whstatic.com/images/thumb/c/c6/Dissect-a-Frog-Step-4-Version-2.jpg/aid468831-900px-Dissect-a-Frog-Step-4-Version-2.jpg");
+}
+#two {
+    content: url("http://pad1.whstatic.com/images/thumb/4/43/Dissect-a-Frog-Step-9.jpg/aid468831-900px-Dissect-a-Frog-Step-9.jpg");
+}
+#three {
+    content: url("http://pad1.whstatic.com/images/thumb/6/65/Dissect-a-Frog-Step-15.jpg/aid468831-900px-Dissect-a-Frog-Step-15.jpg");
+}
+#four {
+    content: url("http://pad3.whstatic.com/images/thumb/6/6f/Dissect-a-Frog-Step-19.jpg/aid468831-900px-Dissect-a-Frog-Step-19.jpg");
+}
+#five {
+    content: url("http://pad3.whstatic.com/images/thumb/d/d9/Dissect-a-Frog-Step-25.jpg/aid468831-900px-Dissect-a-Frog-Step-25.jpg");
+}
+
+div {
+    width: 25%;
+    height: 400px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+div:hover {
+    border: solid 8px grey;
+    background-color: red;
+    padding: 2px;
+
+}

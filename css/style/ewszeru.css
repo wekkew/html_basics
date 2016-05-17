@@ -1,0 +1,72 @@
+body {
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 0;
+}
+body > section,
+body > header {
+    max-width: 960px;
+    margin: 0 auto;
+}
+/* > azon beluli elso dolog */
+
+body > section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+header li {
+    display: inline-block;
+    margin: 0 0 0 0;
+}
+header li:after {
+    content: "🇨🇦";
+    display: inline-block;
+    margin: 0 10px;
+}
+header li a {
+    text-decoration: none;
+}
+header li:last-child:after {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+#what-we-do > section {
+    background-color: #efe;
+    float: left;
+    width: 31.25%;
+    margin: 0 1.04%;
+    box-sizing: border-box;
+}
+/* azok a sectionok amik a id="what-we-do"--ju akarmin belul vannak azok csinaljak azt amit */
+/*azert inkabb % mert akkor pl mobilon nem marad a fix 10 px margo stb hanem a szelesseg csokkenesevel osszemegy*/
+a.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 0.75em;
+}
+a.button:hover,
+a.button:focus {
+    background: lightgrey;
+    color: black;
+    outline: none;
+}
