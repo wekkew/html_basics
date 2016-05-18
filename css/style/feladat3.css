@@ -1,0 +1,70 @@
+
+.fb {
+    display: block;
+    background-color: #3b5998;
+    /*background-color: #000;*/
+    background-image: url("facebook_dark.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    font: bold 14pt sans-serif;
+    text-decoration: none;
+    color: #fff;
+    border: solid #3b5998 1px;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+.fb:hover {
+    display: block;
+    background-color: rgb(29,44,77);
+    /*background-color: #000;*/
+    background-image: url("facebook_normal.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    font: bold 14pt sans-serif;
+    text-decoration: none;
+    color: #fff;
+    border: solid rgb(29,44,77) 1px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#first {
+    width: 20%;
+    height: 100px;
+    background-size: 60px;
+    background-position: 4.5px 11px;
+}
+#first span {
+    padding: 20px 10px 20px 74.5px;
+    line-height: 100px;
+}
+
+
+#second {
+    width: 20%;
+    min-width: 163.5px;
+    height: 100px;
+    background-size: 60px;
+    background-position: right 11px;
+    text-align: right;
+}
+#second span {
+    line-height: 100px;
+    padding:20px 60px 20px 10px;
+}
+
+
+#third {
+    width: 20%;
+    min-width: 163.5px;
+    height: 100px;
+    background-size: 60px;
+    background-position: 4.5px 11px;
+    text-align: center;
+}
+#third span {
+    line-height: 100px;
+
+}

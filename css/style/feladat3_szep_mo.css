@@ -1,0 +1,23 @@
+.fb {
+    display: block;
+    width: 50%;
+    text-decoration: none;
+    background-color: #3b5998;
+    padding: 20px;
+    border-radius: 10px;
+}
+.fb span {
+    display: block;
+    color: #fff;
+    font:  normal 14pt sans-serif;
+    line-height: 64px;
+    background: transparent url("facebook_dark.jpg") no-repeat right;
+    background-size: 64px 64px;
+    padding-right: 84px;
+    text-align: left;
+}
+fb:hover {
+    background-color: rgb(29, 44, 77);
+    background: transparent url("facebook_normal.jpg") no-repeat right;
+    background-size: 64px 64px;
+}
