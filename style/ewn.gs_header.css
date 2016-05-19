@@ -1,0 +1,40 @@
+/*HEADER*/
+
+header {
+    background-color: #2f3138;
+    /*background-color:  #aaa;*/
+    text-align: center;
+    height: 25px;
+    font: normal 12pt Avenir Heavy;
+    padding: 10px 0;
+}
+header nav ul {
+    margin: 0;
+}
+header nav li {
+    line-height: 25px;
+    text-align: center;
+    display: inline;
+    align-items: center;
+    font-size: 10pt;
+    font-weight: lighter;
+    list-style-type: none;
+    margin-left: 5px;
+}
+header nav li:first-child {
+    margin-right: 15px;
+}
+header a {
+    /*background-color: #aaa;*/
+    background-color: #2f3138;
+    display: inline-block;
+    width: 120px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    background-color: #ff5934;
+    border-radius: 20px;
+
+}

@@ -16,7 +16,7 @@
     padding-right: 84px;
     text-align: left;
 }
-fb:hover {
+.fb:hover {
     background-color: rgb(29, 44, 77);
     background: transparent url("facebook_normal.jpg") no-repeat right;
     background-size: 64px 64px;

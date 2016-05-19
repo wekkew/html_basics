@@ -1,77 +1,212 @@
-body {
-    color: white;
-    background-color: #353742;
-    text-align: left;
+/*ARTICLE*/
+article {
+    width: 60%;
+    max-width: 960px;
+    margin-left: 19%;
+    margin-right: 19%;
+    text-align: center;
 }
 
-header h1 {
+/*H1*/
+
+body h1 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 30pt;
-    color: red;
+    font-size: 22pt;
+    color: #ff5934;
+    font-weight: bold;
+    margin: 40px 0 auto 0;
+}
+article > div {
+    display: block;
+    margin-top: 40px;
+    margin-left: 43%;
+    height: 100px;
+    width: 100px;
+    background-image: url("../img/ew.bird.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+}
+h2 {
+    font-size: 14pt;
+    font-style: normal;
     font-weight: lighter;
+    padding-top: 25px;
 }
-nav li {
-    text-align: center;
-    display: inline;
-}
-nav {
-    align-items: center;
-    font-size: 10pt;
-    font-weight: lighter;
-    float: inherit;
-}
-nav ul {
-    list-style-type: none;
-    margin: 5;
-    padding: 0;
-}
-li a {
-    display: inline-block;
-    width: 120px;
-    color: white;
-    text-decoration: none;
+h2 span {
+    color: #ff5934;
+    font-weight: bold;
 }
 
+
+ /* WHAT WE DO*/
+
+section {
+    display: block;
+}
 section.main {
     text-align: left;
 }
-
-section.function {
+section.products {
     font-size: 8pt;
 }
-
-#products {
+#tomarket {
     float: left;
     width: 32%;
     margin-left: 4px;
     margin-right: 4px;
-
 }
 #mobile {
     float: left;
-    width: 33%;
+    width: 32%;
     margin-right: 4px;
 }
 #enbedded {
-    float: right;
-    width: 33%;
+    float: left;
+    width: 32%;
     margin-right: 4px;
 }
 
+#what-we-do h3 {
+    color: #ff5934;
+}
 
-h3 {
-    color: red;
-}
-span {
-    color: red;
-}
+
+/*HOW WE WORK*/
 
 #how-we-work {
     clear: both;
+    font-size: 8pt;
+    line-height: 1.3em;
 }
 
-.nametag {
+/*WHO WE ARE*/
+
+#who-we-are {
+    font-size: 8pt;
+}
+#who-we-are ul {
+    list-style: none;
+}
+#who-we-are ul li a {
+    display: block;
+    box-sizing: border-box;
+    float: left;
+    width: 48%;
+    min-width: 267px;
+    height: 100px;
+    background-color: #44464c;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    text-align: right;
+    line-height: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+#who-we-are ul li a:hover {
+    background-color: #595a60;
+}
+#who-we-are a span {
+    color: #ff5934;
+}
+#who-we-are a span.nametag {
     text-transform: capitalize;
     color: white;
+    font-size: 12pt;
+}
+#doma {
+    background-image: url("../img/allomadar_jobbra.png");
+    background-repeat: no-repeat;
+    background-position: 5% 16.5px;
+}
+#kiwep {
+    background-image: url("../img/fekvomadar_balra.png");
+    background-repeat: no-repeat;
+    background-position: 5% 25.5px;
+}
+#marci {
+    background-image: url("../img/allomadar_balra.png");
+    background-repeat: no-repeat;
+    background-position: 5% 16.5px;
+}
+#patrik {
+    background-image: url("../img/fekvomadar_jobbra.png");
+    background-repeat: no-repeat;
+    background-position: 5% 25.5px;
+}
+
+/* REFERENCIA */
+
+#references {
+    content: "";
+    display: table;
+    clear: both;
+}
+#references h3 span {
+    font-size: 6pt;
+    color: #ff5934;
+}
+#references h3 span:last-child {
+    font-size: 20pt;
+    font-weight: lighter;
+}
+#references > section:last-child{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#references > section {
+    display: block;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+#references > section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#references div {
+    width: 50%;
+    float: left;
+    font-size: 8pt;
+    padding-left: 10px;
+}
+#references img {
+    float: right;
+    width: 47%;
+    border-radius: 0 10px 10px 0;
+}
+#references:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*KAPCSOLAT*/
+
+#connection {
+    display: block;
+    text-align: left;
+    background-color: #44464c;
+    padding-bottom: 20px;
+    font-size: 8pt;
+    font-weight: lighter;
+}
+#connection iframe {
+    padding: 20px 0 0 120px;
+    border-radius: 5px;
+
+}
+#connection > div {
+    max-width: 960px;
+    margin-left: 20%;
+}
+#connection > div > div {
+    float: left;
+}
+#connection a {
+    text-decoration: none;
+    color: #ff5934;
 }

@@ -1,0 +1,12 @@
+/*BODY*/
+
+body {
+    color: white;
+    background-color: #2f3138;
+    text-align: left;
+    font: normal 12pt sans-serif;
+    margin: 0;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
