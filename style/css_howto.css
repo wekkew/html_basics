@@ -1,0 +1,58 @@
+/*
+ew project
+bevezeto comment
+
+arthur newton <a.n@an.an>
+last update 2016-05-20
+
+a lenyeg picit az is hogy ha barmi valtozik a html-ben akkor ne kelljen hozzanyulni a css-hez
+
+*/
+
+/* Generic definiton and tags*/
+/*amik altalanos dolgok es minenhova ervenyesek*/
+
+body {
+    font-family: Avenir;
+    font-size: 10.5pt;
+    line-height: 21px;
+    background-color: #2f3138;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+.button {
+}
+
+ul li {
+}
+
+p {
+    margin: 20px 0;
+    font: 10.5pt;
+}
+
+/* Visual theme */
+/* minek milyen legyen a szine  */
+
+h2 span, h3, .gondolatjel, h3 > span {
+    color: #ff5934;
+}
+
+
+
+/* Layout */
+/*spec meretre vonatkozo dolgok*/
+
+body > section {
+    margin:
+}
+
+body > section:after {
+    content: "";
+    display: table;
+    clear: both;
+}

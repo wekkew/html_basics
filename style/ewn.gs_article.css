@@ -56,16 +56,32 @@ section.products {
     width: 32%;
     margin-left: 4px;
     margin-right: 4px;
+    padding-top: 130px;
+    background-image: url("../img/tomarket.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -20px -15px;
+
 }
 #mobile {
     float: left;
     width: 32%;
     margin-right: 4px;
+    padding-top: 130px;
+    background-image: url("../img/mobile.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -20px -15px;
 }
 #enbedded {
     float: left;
     width: 32%;
     margin-right: 4px;
+    padding-top: 130px;
+    background-image: url("../img/hwsw.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -20px -15px;
 }
 
 #what-we-do h3 {
@@ -182,31 +198,4 @@ section.products {
     content: "";
     display: table;
     clear: both;
-}
-
-/*KAPCSOLAT*/
-
-#connection {
-    display: block;
-    text-align: left;
-    background-color: #44464c;
-    padding-bottom: 20px;
-    font-size: 8pt;
-    font-weight: lighter;
-}
-#connection iframe {
-    padding: 20px 0 0 120px;
-    border-radius: 5px;
-
-}
-#connection > div {
-    max-width: 960px;
-    margin-left: 20%;
-}
-#connection > div > div {
-    float: left;
-}
-#connection a {
-    text-decoration: none;
-    color: #ff5934;
 }

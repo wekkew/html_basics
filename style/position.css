@@ -1,0 +1,20 @@
+img {
+    width: 400px;
+
+}
+.pic {
+    position: relative;
+    float: left;
+    margin: 10px;
+}
+.subtitle {
+    position: absolute;
+    top: +0px;
+    left: 0;
+    right: 0;
+    font: italic 2em sans-serif;
+    background-color: rgba(238, 255, 238, 0.75);
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
